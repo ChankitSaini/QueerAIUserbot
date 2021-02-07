@@ -43,10 +43,7 @@ for name in files:
             load_module(shortname.replace(".py", ""))
 
 LOGS.info("Yay your userbot is officially working.!!!")
-LOGS.info(
-    "Congratulation, now type .alive to see message if bot is live\n"
-   
-)
+LOGS.info("Congratulation, now type .alive to see message if bot is live\n")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
