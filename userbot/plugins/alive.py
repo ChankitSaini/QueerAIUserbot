@@ -31,9 +31,7 @@ async def amireallyalive(alive):
         cat_caption += (
             f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
         )
-        cat_caption += (
-            f"<b>{EMOJI} QueerAI Version :</b> <code>{catversion}</code>\n"
-        )
+        cat_caption += f"<b>{EMOJI} QueerAI Version :</b> <code>{catversion}</code>\n"
         cat_caption += f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
         cat_caption += "    <a href = https://t.me/ChankitSaini><b>Telegram</b></a> | <a href = https://instagram.com/saini_chankit><b>Instagram</b></a> | <a href = https://t.me/QueerAIBot><b>Queer Bot</b></a>"
         await alive.client.send_file(
